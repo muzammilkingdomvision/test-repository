@@ -1,0 +1,10 @@
+2022-03-25T10:46:55+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in C:\xampp\htdocs\wordpress-post\wp-content\themes\twentytwentyone\functions.php:633
+Stack trace:
+#0 C:\xampp\htdocs\wordpress-post\wp-settings.php(555): include()
+#1 C:\xampp\htdocs\wordpress-post\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress-post\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress-post\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress-post\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress-post\wp-content\themes\twentytwentyone\functions.php on line 633
+
